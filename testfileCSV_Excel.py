@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Rekap Order Source", layout="wide")
-st.title("📊 Rekapitulasi Data Berdasarkan Order Source")
+st.title("📊 Sales Dashboard Jumlah Data Berdasarkan Order Source")
 
 # Upload file
 uploaded_file = st.file_uploader("📁 Upload file (.xlsx or .csv)", type=["xlsx", "csv"])
